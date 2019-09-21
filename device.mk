@@ -129,6 +129,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.setupwizard.rotation_locked=true \
     ro.com.google.clientidbase=android-ckt \
     ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
     net.tethering.noprovisioning=true
 
 PRODUCT_COPY_FILES += \
